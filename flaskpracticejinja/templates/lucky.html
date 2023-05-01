@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Lucky Number is : {{lucky_num}} </h1>
+    {%if lucky_num == 3%}
+    <h2> 3 is the lucky number</h2>
+    <img src="https://media2.giphy.com/media/dvdcBNbAiNVT9Z0iwP/giphy.gif" alt="">
+    {%else%}
+    <h2>That is not my lucky number {{lucky_num}}</h2>
+    <img src="https://thedrum-media.imgix.net/thedrum-prod/s3/news/tmp/37906/homer_gif.jpeg?w=1280&ar=default&fit=crop&crop=faces,edges&auto=format" alt="">
+    {%endif%}
+</body>
+</html>
